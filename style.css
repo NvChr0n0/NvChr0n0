@@ -10,8 +10,8 @@ body{
 }
 
 .heart{
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     background: #f20044;
     position: relative;
     transform: rotate(-45deg);
@@ -33,8 +33,8 @@ body{
 .heart::before{
     content: '';
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     background: #f20044;
     top: -50%;
     border-radius: 50px;
@@ -44,8 +44,8 @@ body{
 .heart::after{
     content: '';
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     background: #f20044;
     right: -50%;
     border-radius: 50px;
