@@ -67,7 +67,9 @@ body{
     width: 300px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+
 .branco2{
     display: flex;
     background-color: white;
@@ -78,9 +80,15 @@ body{
 .cinza{
     display: flex;
     background-color: gray;
-    height: 250px;
+    height: 150px;
     width: 250px;
-    align-items: flex-end;
+    align-items: flex-start;
+}
+
+.foto{
+    display: flex;
+    height: 150px;
+    width: 250px;
 }
 
 
