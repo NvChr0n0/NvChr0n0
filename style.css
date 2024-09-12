@@ -83,11 +83,25 @@ body{
     background-color: gray;
     height: 150px;
     width: 250px;
-    align-items: flex-start;
+
 }
 
-.foto{
+
+
+.carrossel{
+    overflow: hidden;
+    height: 150px;
+    width: 250px;
+    
+}
+
+.container{
     display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
     height: 150px;
     width: 250px;
 }
@@ -95,7 +109,7 @@ body{
 
 a{
     color: black;
-    text-align: end;
+    text-align: center;
     align-content: center;
     
 }
